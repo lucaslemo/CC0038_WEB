@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>One Piece - Formulário</title>
+</head>
+<body>
+	<div>
+		<img src="img/onepiece.png" alt="Logo de One Piece">
+		<h1>Formulário</h1>
+	</div>
+	<div>
+		<form action="" method="post" accept-charset="utf-8" autocomplete="on" enctype="multipart/form-data">
+			<p>Seus dados: </p>
+			<label for="nome">Nome: </label>
+			<input type="text" name="nome" id="nome" placeholder="Ex.: Maria" required="">
+			<label for="local">Cidade: </label>
+			<input type="text" name="local" id="local" placeholder="Ex.: Crato" required="">
+			<p>Por onde você acompanha a obra:</p>
+			<input type="radio" name="view"> Anime
+        	<input type="radio" name="view"> Mangá
+        	<input type="radio" name="view"> Anime e Mangá
+        	<p>Qual seu personagem favorito:</p>
+        	<input list="pers" name="pers">
+	        <datalist id="pers">
+	            <option value="Luffy">
+	            <option value="Zoro">
+	            <option value="Sanji">
+	            <option value="Nami">
+	            <option value="Jinbei">
+	            <option value="Chopper">
+	            <option value="Law">
+	        </datalist>
+        	<p>Quando você começou a acompanhar a obra: </p>
+        	<input type="date" name="data">
+        	<p>Seu Feedback: </p>
+        	<textarea rows="20" cols="60"></textarea>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+</body>
+</html>
