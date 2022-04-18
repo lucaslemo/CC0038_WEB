@@ -1,0 +1,11 @@
+@font-face{
+	font-family: myfont;
+	src: url(../fonts/HennyPenny-Regular.ttf);
+}
+
+p{
+	font-family: myfont ,Tahoma, "Times New Roman", arial;
+	font-weight: bolder;
+	color: purple;
+	text-indent: 20px;
+}
